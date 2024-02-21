@@ -4,7 +4,7 @@
    map each 'word' to a tuple of (length, word)
    so that you can compare words by length.
 
-   Python can compare tuples using element-by-element comparison:
+   Python compares tuples using element-by-element comparison:
    (4, "bird") > (3, "cat")    since 4 > 3
    (4, "cats") > (4, "birds")  since 4 == 4 and "cats" > "birds"
    (6, "canary") > (4, "cats")
